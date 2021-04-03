@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title> "Da Poets Corner" </title>
+  </head>
+  <body>
+      <div class="row">
+        <div class="col-lg-12 img-fluid d-flex align-items-center justify-content-center" id="head">
+          <div>
+            <h1 style="color: white;font-family: 'Courier New', Courier, monospace;font-weight: 300;">Da Poets <span style="color: lightcoral;">Corner</span></h1>      
+            <p style="color: white;font-family: 'Courier New', Courier, monospace;font-weight: 300;">A collection of poems written by $@ch|+.</p>
+          </div>
+          </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="row d-flex">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card text-center">
+              <img src="assets/poem1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Path</h5>
+                <ng-template #content let-modal>
+                  <div class="modal-body">
+                    <div>
+                    <img src="assets/poem1.png" class="img-fluid">
+                    </div>
+                  </div>
+              
+            
+                </ng-template>
+                
+                
+                <button class="btn btn-lg  btn-outline-danger" (click)="open(content)">Preview</button>
+                
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card">
+              <img src="assets/poem2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Screen</h5>
+                <ng-template #content1 let-modal>
+                  <div class="modal-body">
+                    <div>
+                    <img src="assets/poem2.png" class="img-fluid">
+                    </div>
+                  </div>
+              
+            
+                </ng-template>
+                
+                
+                <button class="btn btn-lg  btn-outline-danger" (click)="open(content1)">Preview</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card">
+              <img src="assets/poem3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Memory</h5>
+                <ng-template #content2 let-modal>
+                  <div class="modal-body">
+                    <div>
+                    <img src="assets/poem3.png" class="img-fluid">
+                    </div>
+                  </div>
+              
+            
+                </ng-template>
+                
+                
+                <button class="btn btn-lg  btn-outline-danger" (click)="open(content2)">Preview</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card">
+              <img src="assets/poem4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Boy</h5>
+                <ng-template #content3 let-modal>
+                  <div class="modal-body">
+                    <div>
+                    <img src="assets/poem4.jpeg" class="img-fluid">
+                    </div>
+                  </div>
+              
+            
+                </ng-template>
+                
+                
+                <button class="btn btn-lg  btn-outline-danger" (click)="open(content3)">Preview</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="row d-flex">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="card">
+            <img src="assets/poem5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Scared</h5>
+              <ng-template #content4 let-modal>
+                <div class="modal-body">
+                  <div>
+                  <img src="assets/poem5.jpeg" class="img-fluid">
+                  </div>
+                </div>
+            
+          
+              </ng-template>
+              
+              
+              <button class="btn btn-lg  btn-outline-danger" (click)="open(content4)">Preview</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="card">
+            <img src="assets/poem6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mind</h5>
+              <ng-template #content5 let-modal >
+                <div class="modal-body">
+                  <div>
+                  <img src="assets/poem6.png" class="img-fluid">
+                  </div>
+                </div>
+            
+          
+              </ng-template>
+              
+              
+              <button class="btn btn-lg  btn-outline-danger" (click)="open(content5)">Preview</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
